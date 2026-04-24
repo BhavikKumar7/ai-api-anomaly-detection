@@ -49,32 +49,30 @@ ai-api-anomaly-detection/
 
 ## API Endpoints
 
-### **1. Monitor API Traffic**
-- **URL**: `/api/monitor`
-- **Method**: `POST`
-- **Request Body**:
-  ```json
-  {
-    "apiData": {
-      "traffic": 1200
-    }
+### 1. Monitor API Traffic
+
+- **URL:** `/api/monitor`
+- **Method:** `POST`
+
+#### Request Body
+```json
+{
+  "apiData": {
+    "traffic": 1200
   }
+}
 
 #### Response
 
-```json
 {
   "message": "API traffic monitored successfully",
   "isAnomalous": true
 }
-{ ... }
 
 2. Fetch Logs
 URL: /logs
 Method: GET
 #### Response
-
-```json
 {
   "logs": [
     {
@@ -89,7 +87,6 @@ Method: GET
     }
   ]
 }
-{ ... }
 
 How It Works
 Anomaly Detection:
