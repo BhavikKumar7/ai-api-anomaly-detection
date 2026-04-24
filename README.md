@@ -60,16 +60,21 @@ ai-api-anomaly-detection/
     }
   }
 
-Response:
+#### Response
+
+```json
 {
   "message": "API traffic monitored successfully",
   "isAnomalous": true
 }
+{ ... }
 
 2. Fetch Logs
 URL: /logs
 Method: GET
-Response:
+#### Response
+
+```json
 {
   "logs": [
     {
@@ -84,6 +89,7 @@ Response:
     }
   ]
 }
+{ ... }
 
 How It Works
 Anomaly Detection:
