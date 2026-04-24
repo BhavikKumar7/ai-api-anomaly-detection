@@ -26,6 +26,7 @@ Design and develop an AI-based system that can:
 ---
 
 ## Project Structure
+```text
 ai-api-anomaly-detection/
 ├── public/
 │ ├── index.html # Frontend HTML
@@ -44,8 +45,7 @@ ai-api-anomaly-detection/
 ├── README.md # Project documentation
 └── INSTALL.md # Installation instructions
 
-
----
+```
 
 ## API Endpoints
 
@@ -61,18 +61,21 @@ ai-api-anomaly-detection/
     "traffic": 1200
   }
 }
+```
 
 #### Response
-
+```json
 {
   "message": "API traffic monitored successfully",
   "isAnomalous": true
 }
+```
 
 2. Fetch Logs
 URL: /logs
 Method: GET
 #### Response
+```json
 {
   "logs": [
     {
@@ -87,6 +90,7 @@ Method: GET
     }
   ]
 }
+```
 
 How It Works
 Anomaly Detection:
