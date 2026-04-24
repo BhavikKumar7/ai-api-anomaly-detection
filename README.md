@@ -61,7 +61,6 @@ ai-api-anomaly-detection/
   }
 
 Response:
-```json
 {
   "message": "API traffic monitored successfully",
   "isAnomalous": true
